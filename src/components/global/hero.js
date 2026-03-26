@@ -20,9 +20,7 @@ export function SiteHero() {
     const { t } = useTranslation();
     //sürekli değişen yazı
     const textarray = [
-       {text: "Counter-Strike 1.2", color: "text-red-500", src: "https://cdn.discordapp.com/attachments/1165441669831856209/1166900913894608957/NicePng_csgo-ct-png_2279334.png?ex=654c2c29&is=6539b729&hm=4c158e64337aaa558bad07ed352dce6fe3e666100c9ae31abc7ef13f5343221c&", url: "https://www.youtube.com/watch?v=QqkUxvqjYdI"},
-       {text: "Counter-Strike 1.3", color: "text-red-500", src: "https://cdn.discordapp.com/attachments/1165441669831856209/1166900913894608957/NicePng_csgo-ct-png_2279334.png?ex=654c2c29&is=6539b729&hm=4c158e64337aaa558bad07ed352dce6fe3e666100c9ae31abc7ef13f5343221c&" , url: "https://www.youtube.com/watch?v=QqkUxvqjYdI"},
-       {text: "Counter-Strike 1.4", color: "text-red-500", src: "https://cdn.discordapp.com/attachments/1165441669831856209/1166900913894608957/NicePng_csgo-ct-png_2279334.png?ex=654c2c29&is=6539b729&hm=4c158e64337aaa558bad07ed352dce6fe3e666100c9ae31abc7ef13f5343221c&" , url: "https://www.youtube.com/watch?v=QqkUxvqjYdI"},
+       {text: "FiveM - External", color: "text-red-500", src: "https://cdn.discordapp.com/attachments/1165441669831856209/1166900913894608957/NicePng_csgo-ct-png_2279334.png?ex=654c2c29&is=6539b729&hm=4c158e64337aaa558bad07ed352dce6fe3e666100c9ae31abc7ef13f5343221c&" , url: "https://www.youtube.com/watch?v=QqkUxvqjYdI"},
     ]
     const cheattags = [
         {text: "Aimbot"},
@@ -38,14 +36,7 @@ export function SiteHero() {
     ]
 
     const gamecategory = [
-        "Counter-Strike 1.6",
-        "Counter-Strike: Condition Zero",
-        "Counter-Strike: Source",
-        "Counter-Strike: Global Offensive",
-        "Counter-Strike: Online",
-        "Counter-Strike: Online 2",
-        "Counter-Strike Nexon: Zombies",
-        "Counter-Strike Neo",
+        "FiveM - External"
     ]
     
     const [text, setText] = useState(textarray[0].text);

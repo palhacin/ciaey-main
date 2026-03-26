@@ -3,7 +3,7 @@ import { Icons } from "@/components/icons"
 import { useRouter } from "next/router"
 
 export const siteConfig = {
-  name: "OCHOOK",
+  name: "FIVEWARE",
   discord: {
     Id: "243101949606625281",
   },
@@ -21,11 +21,11 @@ export const siteConfig = {
     {
       title: "Discord",
       trans: "navbar.discord",
-      href: "https://discord.gg/6dKXQ2E",
+      href: "https://discord.gg/QZzNwez2Uz",
     }
   
   ],
   links: {
-    discord: "https://discord.gg/6dKXQ2E",
+    discord: "https://discord.gg/QZzNwez2Uz",
   },
 }
