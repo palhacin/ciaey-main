@@ -75,7 +75,7 @@ export function SiteCard() {
                     </div>
                
                 <dd className="flex flex-col mt-1 text-3xl font-semibold  dark:text-white text-black">
-                    OCHOOK
+                    FIVEWARE
                     <text className="mt-1 text-sm font-medium text-gray-500 truncate"> {t('cards.day')}</text>
 
                 </dd> 
@@ -136,7 +136,7 @@ export function SiteCard() {
                     </div>
                
                     <dd className="flex flex-col mt-1 text-3xl font-semibold  dark:text-white text-black">
-                    OCHOOK
+                    FIVEWARE
                     <text className="mt-1 text-sm font-medium text-gray-500 truncate"> {t('cards.week')}</text>
 
                 </dd> 
@@ -187,13 +187,13 @@ export function SiteCard() {
                 <dl>
                     <div className="flex items-center justify-between">
                     <dt className="text-sm font-medium text-gray-500 truncate">
-                    Counter-Strike 1.6
+                    FiveM - External
                 </dt>
                     <badge className="bg-green-500 text-white rounded-full px-2 py-1 text-xs font-bold ml-2">Undetected</badge>
                     </div>
                
                     <dd className="flex flex-col mt-1 text-3xl font-semibold  dark:text-white text-black">
-                    OCHOOK
+                    FIVEWARE
                     <text className="mt-1 text-sm font-medium text-gray-500 truncate"> {t('cards.month')}</text>
 
                 </dd> 
